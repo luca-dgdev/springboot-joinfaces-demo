@@ -51,27 +51,10 @@
     </dependencies>
 
     <build>
-        <pluginManagement>
-            <plugins>
-                <plugin>
-                    <groupId>org.joinfaces</groupId>
-                    <artifactId>joinfaces-maven-plugin</artifactId>
-                    <version>${joinfaces.version}</version>
-                    <executions>
-                        <execution>
-                            <goals>
-                                <goal>classpath-scan</goal>
-                            </goals>
-                        </execution>
-                    </executions>
-                </plugin>
-            </plugins>
-        </pluginManagement>
-
         <plugins>
             <plugin>
-                <groupId>org.joinfaces</groupId>
-                <artifactId>joinfaces-maven-plugin</artifactId>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
         </plugins>
     </build>
